@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080e1c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(139,92,246,0.18);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(139,92,246,0.35); }
+
+/* ── Background grid ── */
+.bg-system-grid {
+  background-image:
+    linear-gradient(rgba(139,92,246,0.038) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139,92,246,0.038) 1px, transparent 1px);
+  background-size: 48px 48px;
+  background-position: center center;
+}
+
+/* ── Keyframes ─────────────────────────────────────────────────────────────── */
+
+/* Scan line — right panel vertical sweep */
+@keyframes scan-line {
+  0%   { top: -2px;  opacity: 0;   }
+  4%   { opacity: 0.8; }
+  96%  { opacity: 0.4; }
+  100% { top: 100%;  opacity: 0;   }
+}
+.animate-scan-line {
+  animation: scan-line 9s linear infinite;
+}
+
+/* Light sweep — hero card horizontal shimmer */
+@keyframes hero-sweep {
+  0%   { transform: translateX(-120%) skewX(-18deg); opacity: 0; }
+  5%   { opacity: 1; }
+  55%  { opacity: 0; }
+  100% { transform: translateX(420%) skewX(-18deg); opacity: 0; }
+}
+.animate-hero-sweep {
+  animation: hero-sweep 9s ease-in-out infinite;
+}
+
+/* Glow breathe — text backdrop + glows */
+@keyframes glow-breathe {
+  0%, 100% { opacity: 0.25; }
+  50%       { opacity: 0.55; }
+}
+.animate-glow-breathe {
+  animation: glow-breathe 4s ease-in-out infinite;
+}
+
+/* Particle pulse — tiny dots in hero */
+@keyframes particle-blink {
+  0%, 100% { opacity: 0.08; transform: scale(1);   }
+  50%       { opacity: 0.45; transform: scale(1.6); }
+}
+.animate-particle {
+  animation: particle-blink 4s ease-in-out infinite;
+}
+
+/* Pulse ring — status dot halo */
+@keyframes pulse-ring {
+  0%   { transform: scale(1);   opacity: 0.7; }
+  100% { transform: scale(2.8); opacity: 0;   }
+}
+.animate-pulse-ring {
+  animation: pulse-ring 2.4s ease-out infinite;
+}
+
+/* Float — weather icon */
+@keyframes float-y {
+  0%, 100% { transform: translateY(0px);  }
+  50%       { transform: translateY(-4px); }
+}
+.animate-float {
+  animation: float-y 3.2s ease-in-out infinite;
+}
+
+/* Shimmer wave — processing state overlay */
+@keyframes shimmer-wave {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(139,92,246,0.12) 30%,
+    rgba(167,139,250,0.22) 50%,
+    rgba(139,92,246,0.12) 70%,
+    transparent 100%
+  );
+  background-size: 200% auto;
+  animation: shimmer-wave 2.2s linear infinite;
+}
+
+/* Digit tick — clock seconds */
+@keyframes digit-in {
+  from { opacity: 0; transform: translateY(5px);  }
+  to   { opacity: 1; transform: translateY(0);     }
+}
+@keyframes digit-out {
+  from { opacity: 1; transform: translateY(0);     }
+  to   { opacity: 0; transform: translateY(-5px);  }
+}
+
+/* Colon blink */
+@keyframes colon-blink {
+  0%, 100% { opacity: 0.6; }
+  50%       { opacity: 0.15; }
+}
+.animate-colon-blink {
+  animation: colon-blink 1s ease-in-out infinite;
+}
