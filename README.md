@@ -17,7 +17,6 @@
   <a href="#getting-started"><strong>Get Started</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="#future-roadmap"><strong>Roadmap</strong></a>
 </p>
----
 
 ### What This System Does
 
