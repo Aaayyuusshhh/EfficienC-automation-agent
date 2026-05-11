@@ -2,13 +2,7 @@
   <img src="./assets/efficienC-banner.png" alt="EfficienC — AI Operations Co-Pilot" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-active-22C55E?style=flat-square&labelColor=111827" />
-  <img src="https://img.shields.io/badge/version-1.0.0-7C3AED?style=flat-square&labelColor=111827" />
-  <img src="https://img.shields.io/badge/agents-4%20active-0EA5E9?style=flat-square&labelColor=111827" />
-  <img src="https://img.shields.io/badge/integrations-Google%20APIs-F59E0B?style=flat-square&labelColor=111827" />
-  <img src="https://img.shields.io/badge/license-MIT-6B7280?style=flat-square&labelColor=111827" />
-</p>
+<p align="center"> <a href="#system-architecture"><strong>Architecture</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="#current-features"><strong>Features</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="#agent-pipeline"><strong>Agent Pipeline</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="#getting-started"><strong>Get Started</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="#future-roadmap"><strong>Roadmap</strong></a> </p>
 
 ### What This System Does
 
