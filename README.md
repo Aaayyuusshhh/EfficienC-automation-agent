@@ -43,9 +43,20 @@ EfficienC is not a chatbot. It is a deterministic multi-agent execution pipeline
   </sub>
 </p>
 
+# Screenshots
+
+## Dashboard
+
 <p align="center">
   <img src="./assets/dashboard-preview.jpeg" width="100%" />
 </p>
+
+<p align="center">
+  <sub>
+    Real-time operational dashboard with multi-agent orchestration, workflow execution, task lifecycle tracking, SSE updates, and automation monitoring.
+  </sub>
+</p>
+
 ---
 
 # Overview
