@@ -43,6 +43,9 @@ EfficienC is not a chatbot. It is a deterministic multi-agent execution pipeline
   </sub>
 </p>
 
+<p align="center">
+  <img src="./assets/dashboard-preview.jpeg" width="100%" />
+</p>
 ---
 
 # Overview
