@@ -10,14 +10,6 @@
   <img src="https://img.shields.io/badge/license-MIT-6B7280?style=flat-square&labelColor=111827" />
 </p>
 
-<p align="center">
-  <a href="#system-architecture"><strong>Architecture</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#current-features"><strong>Features</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#agent-pipeline"><strong>Agent Pipeline</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#getting-started"><strong>Get Started</strong></a> &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#future-roadmap"><strong>Roadmap</strong></a>
-</p>
-
 ### What This System Does
 
 EfficienC is not a chatbot. It is a deterministic multi-agent execution pipeline that converts natural language into real-world actions — scheduling meetings, sending emails, managing tasks, and triggering reminders — through a structured chain of AI planning, rule-based decision-making, validation, and execution.
